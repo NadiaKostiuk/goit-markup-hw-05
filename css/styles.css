@@ -309,6 +309,7 @@ address {
 }
 
 /*SVG Студия Basic*/
+
 .basic-tricks-item {
   min-width: 270px;
 }
@@ -386,6 +387,25 @@ address {
   margin: 0px;
 }
 
+.img-examples-text {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-color: rgba(47, 48, 58, 0.8);
+  /* padding: 27px 0px; */
+
+  font-weight: 700;
+  color: var(--white-bg-color);
+}
+
+.img-examples {
+  position: relative;
+}
 .what-we-do-list .what-we-do-img + .what-we-do-img {
   margin-left: 30px;
 }
