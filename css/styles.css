@@ -951,6 +951,7 @@ overflow: hidden;
   color: #ffffff;
   background: #2196f3;
 }
+
 .item-join:not(:last-child) {
   margin-right: 10px;
 }
